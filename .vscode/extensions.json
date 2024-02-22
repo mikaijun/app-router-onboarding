@@ -1,0 +1,6 @@
+// VSCodeの推奨プラグインの設定
+// see: https://zenn.dev/resistance_gowy/articles/91b4f62b9f48ec#%E5%8F%82%E8%80%83-2
+
+{
+  "recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
+}

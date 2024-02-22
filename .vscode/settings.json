@@ -1,0 +1,21 @@
+// VSCodeの設定を上書き
+// see: https://zenn.dev/resistance_gowy/articles/91b4f62b9f48ec#%E5%8F%82%E8%80%83-2
+
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescriptreact]": {},
+  "[typescript]": {},
+  "[jsonc]": {},
+  "[javascript]": {},
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": false
+  },
+  "[ejs]": {
+    "editor.formatOnSave": false
+  }
+}
