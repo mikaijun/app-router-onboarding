@@ -1,0 +1,13 @@
+# @see https://github.com/evilmartians/lefthook/blob/master/docs/full_guide.md
+
+pre-push:
+  parallel: true
+  commands:
+    frontend-tsc:
+      tags: tsc
+      glob: '*.{ts,tsx}'
+      run: npm run check-types
+    frontend-eslint:
+      tags: eslint
+      glob: '*.{js,jsx,ts,tsx}'
+      run: npm run lint
