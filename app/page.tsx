@@ -5,7 +5,7 @@ export default function Home() {
     <main>
       <div>
         <p>
-          Get started by editing&nbsp;
+          Get started by editingあいうえお&nbsp;
           <code>app/page.tsx</code>
         </p>
         <div>
@@ -15,13 +15,7 @@ export default function Home() {
             rel='noopener noreferrer'
           >
             By
-            <Imagee
-              src='/vercel.svg'
-              alt='Vercel Logo'
-              width={100}
-              height={24}
-              priority
-            />
+            <Image src='/vercel.svg' alt='Vercel Logo' width={100} height={24} priority />
           </a>
         </div>
       </div>
