@@ -16,9 +16,11 @@ module.exports = {
   },
   plugins: ['@typescript-eslint', 'import'],
   root: true,
-  // NOTE: ルールに関しては以下の記事を参考
-  // see: https://zenn.dev/resistance_gowy/articles/91b4f62b9f48ec#eslint-plugin-import
   rules: {
+    // NOTE: react-hook-formでonClick={handleSubmit(func)}的なことをしたいので無効化してる
+    '@typescript-eslint/no-misused-promises': 'off',
+    // NOTE: ルールに関しては以下の記事を参考
+    // see: https://zenn.dev/resistance_gowy/articles/91b4f62b9f48ec#eslint-plugin-import
     'import/order': [
       'error',
       {
