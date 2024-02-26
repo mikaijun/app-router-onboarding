@@ -5,9 +5,11 @@ pre-push:
   commands:
     frontend-tsc:
       tags: tsc
+      root: '*.'
       glob: '*.{ts,tsx}'
       run: npm run check-types
     frontend-eslint:
       tags: eslint
+      root: '*.'
       glob: '*.{js,jsx,ts,tsx}'
       run: npm run lint
