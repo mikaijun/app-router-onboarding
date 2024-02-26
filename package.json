@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "check-types": "tsc --noEmit",
+    "tsc": "tsc --noEmit",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "prettier": "prettier --write .",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "check": "tsc --noEmit && next lint && prettier --check .",
     "format": "next lint --fix && prettier --write ."
   },
   "dependencies": {

@@ -10,4 +10,10 @@ pre-push:
       tags: eslint
       root: 'app/'
       glob: '*.{js,jsx,ts,tsx}'
-      run: npm run lint
+      run: npm run check
+
+    frontend-prettier:
+      tags: prettier
+      root: 'app/'
+      glob: '*.{js,jsx,ts,tsx}'
+      run: npm run prettier
