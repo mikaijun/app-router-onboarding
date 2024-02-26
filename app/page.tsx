@@ -15,7 +15,13 @@ export default function Home() {
             rel='noopener noreferrer'
           >
             By
-            <Image src='/vercel.svg' alt='Vercel Logo' width={100} height={24} priority />
+            <Imagee
+              src='/vercel.svg'
+              alt='Vercel Logo'
+              width={100}
+              height={24}
+              priority
+            />
           </a>
         </div>
       </div>
